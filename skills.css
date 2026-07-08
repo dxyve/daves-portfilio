@@ -1,0 +1,57 @@
+.channel-pic {
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.channel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.video-lineup {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.thumbnail {
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: width 0.5s;
+   
+}
+
+.thumbnail:hover {
+    width: 450px;
+    opacity: 0.8;
+}
+
+.thumbnail-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.video-title {
+    width: 400px;
+}
+
+.minecraft-image {
+    width: 1300px;
+    border-radius: 100px;
+    height: 830px;
+}
+
+.minecraft-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+

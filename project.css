@@ -1,0 +1,12 @@
+.proj {
+    width: 1100px;
+    transition: width 0.5s;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.proj:hover {
+    opacity: 0.5s;
+    width: 1200px;
+     box-shadow: 0px 4px 10px rgba(5, 88, 143, 0.9);
+     cursor: pointer;
+}

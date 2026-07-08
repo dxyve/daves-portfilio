@@ -1,0 +1,20 @@
+.html-tutorial {
+    border-radius: 30px;
+    width: 1200px;
+    transition: width 0.5s;
+}
+
+.html-tutorial:hover {
+    width: 1400px;
+    box-shadow: 5px 5px 7px rgba(5, 88, 143, 0.9);
+}
+
+.code-show {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.5s;
+}
+
+.code-show:hover {
+         box-shadow: 5px 5px 7px rgba(5, 88, 143, 0.9);
+         cursor: pointer;
+}
